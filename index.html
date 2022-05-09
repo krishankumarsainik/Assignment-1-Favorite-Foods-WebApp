@@ -2,60 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fevrate food</title>
 </head>
 
 <body>
-
     <div class="header">
         <div class="header-item">Index</div>
         <div class="header-item">Food</div>
         <div class="header-item">About</div>
     </div>
+    <div style="background-color: gray; margin-top: 0px">
+        <h2 style="margin: 0px">Top 5 favourite foods</h2>
 
-    <h1> Top 5 favourite foods</h1>
-
-    <ul>
-        <Li>Biryani</Li>
-        <Li>Cake</Li>
-        <Li>Pizza</Li>
-        <Li>Choupsey</Li>
-        <Li>Wings</Li>
-    </ul>
-    <div class="image-container">
-        <div>
-            <img src="https://via.placeholder.com/500">
-            <p>Biryani</p>
+        <ul>
+            <li><a href="#biryani">Biryani</a></li>
+            <li><a href="#cake">Cake</a></li>
+            <li>
+                <a href="#Pizza">Pizza</a></li>
+            <li><a href="#Choupsey">Choupsey</a></li>
+            <li><a href="#Wings">Wings</a></li>
+        </ul>
+        <div class="image-container">
+            <div id="biryani">
+                <img src="https://via.placeholder.com/500" />
+                <p>Biryani</p>
+            </div>
+            <div id="cake">
+                <img src="https://via.placeholder.com/500" />
+                <p>Cake</p>
+            </div>
+            <div id="Pizza">
+                <img src="https://via.placeholder.com/500" />
+                <p>Pizza</p>
+            </div>
+            <div id="Choupsey">
+                <img src="https://via.placeholder.com/500" />
+                <p>Choupsey</p>
+            </div>
+            <div id="Wings">
+                <img src="https://via.placeholder.com/500" />
+                <p>Wings</p>
+            </div>
         </div>
-        <div>
-            <img src="https://via.placeholder.com/500">
-            <p>Cake</p>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/500">
-            <p>Pizza</p>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/500">
-            <p>Choupsey</p>
-        </div>
-        <div>
-            <img src="https://via.placeholder.com/500">
-            <p>Wings</p>
-        </div>
-
     </div>
-
 </body>
 <style>
+    body {
+        margin: 0px
+    }
+    
+    a {
+        color: black;
+        text-decoration: none
+    }
+    
     .header {
         display: flex;
         background-color: #333333;
         color: white;
         height: 50px;
+        margin-bottom: 0px;
     }
     
     .header-item {
